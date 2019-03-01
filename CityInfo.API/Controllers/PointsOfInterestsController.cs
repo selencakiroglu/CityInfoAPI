@@ -220,7 +220,7 @@ namespace CityInfo.API.Controllers
 
             if (!_cityInfoRepository.Save())
             {
-                return StatusCode(500, "A problem happened while handling your request.");
+                return StatusCode(500, "A problem happened while handling your request. Status 500.");
 
             }
 
